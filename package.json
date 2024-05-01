@@ -1,14 +1,4 @@
 {
-  "name": "catwalk-chat",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
@@ -30,9 +20,25 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "eslint-plugin-tailwindcss": "^3.15.1",
+    "npm-run-all": "^4.1.5",
     "postcss": "^8.4.38",
+    "stylelint": "^16.4.0",
+    "stylelint-config-standard": "^36.0.0",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
-  }
+  },
+  "name": "catwalk-chat",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "lint": "run-p run-tsc run-eslint run-stylelint",
+    "preview": "vite preview",
+    "run-eslint": "eslint --cache --fix --ext .ts,.tsx .",
+    "run-stylelint": "stylelint --cache --fix **/*.css",
+    "run-tsc": "tsc --noEmit"
+  },
+  "type": "module",
+  "version": "0.0.0"
 }
