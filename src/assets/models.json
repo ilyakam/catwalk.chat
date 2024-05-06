@@ -1,0 +1,35 @@
+[
+  {
+    "description": "Chat to supercharge your ideas.\n\nBard is now Gemini. Get help with writing, planning, learning, and more from Google AI.",
+    "developer": "Google",
+    "features": [
+      "microphone",
+      "image"
+    ],
+    "image": "gemini-image.svg",
+    "name": "Gemini",
+    "release_date": "2024-03-04",
+    "url": "https://gemini.google.com"
+  },
+  {
+    "description": "Build the future of AI with Meta Llama 3. Now available with both 8B and 70B pretrained and instruction-tuned versions to support a wide range of applications.",
+    "developer": "Meta",
+    "features": [],
+    "image": "llama-3-image.png",
+    "name": "Llama 3",
+    "release_date": "2024-04-18",
+    "url": "https://llama.meta.com/llama3/"
+  },
+  {
+    "name": "Claude 3",
+    "description": "Talk with Claude, an AI assistant from Anthropic",
+    "developer": "Anthropic",
+    "image": "claude-3-image.png",
+    "release_date": "2024-03-14",
+    "url": "https://claude.ai",
+    "features": [
+      "document",
+      "image"
+    ]
+  }
+]

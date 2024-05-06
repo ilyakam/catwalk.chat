@@ -9,7 +9,9 @@
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"
   },
+  "description": "Pick Your Favorite LLM on catwalk.chat",
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.13",
     "@types/node": "^20.12.8",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
@@ -29,6 +31,7 @@
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   },
+  "homepage": "https://catwalk.chat",
   "name": "catwalk-chat",
   "scripts": {
     "build": "tsc && vite build",

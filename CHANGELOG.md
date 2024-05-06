@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+- Meta Llama 3 and Anthropic Claude 3 models using `models.json`
+- Clickable model image and "Go!" button
+- Tooltips for the feature icons
+- TypeScript annotation for the `model` objects
+- Website `<title>` to `index.html`
+- `"description"` and `"homepage"` to `package.json`
+- Sparkles emoji (✨) favicon
+
+### Changed
+
+- Remove horizontal padding from the model image
+
 ## [0.1.1] - 2024-05-01
 
 ### Fixed
