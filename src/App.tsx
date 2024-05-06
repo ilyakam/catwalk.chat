@@ -3,8 +3,11 @@ import { Card } from '@/components/ui/card';
 
 import {
   FilePlus2,
+  HandCoins,
   ImagePlus,
   Mic,
+  Search,
+  Video,
 } from 'lucide-react';
 
 import rawModels from './assets/models.json?raw';
@@ -40,6 +43,21 @@ function App() {
           <Mic />
         </span>
       ),
+      'search': (
+        <span key={feature} title='Search engine' aria-label='Search engine'>
+          <Search />
+        </span>
+      ),
+      'upsell': (
+        <span key={feature} title='Paid upgrade' aria-label='Paid upgrade'>
+          <HandCoins />
+        </span>
+      ),
+      'video': (
+        <span key={feature} title='Video upload' aria-label='Video upload'>
+          <Video />
+        </span>
+      )
     };
 
     return featuresHash[feature];
@@ -53,7 +71,7 @@ function App() {
           key={model.name}
           >
           <a
-            className='relative h-52 w-full overflow-hidden bg-slate-50 dark:bg-slate-800'
+            className='relative h-52 w-full overflow-hidden bg-slate-50 dark:bg-slate-600'
             href={model.url || '#'}
             rel="noopener noreferrer"
             target="_blank"
