@@ -1,10 +1,12 @@
 [
   {
-    "description": "Chat to supercharge your ideas.\n\nBard is now Gemini. Get help with writing, planning, learning, and more from Google AI.",
+    "description": "Chat to supercharge your ideas.\n\nBard is now Gemini. Get help with writing, planning, learning, and more from Google AI.\n\nUpgrade to Gemini Advanced for $19.99/mo.",
     "developer": "Google",
     "features": [
+      "search",
       "microphone",
-      "image"
+      "image",
+      "upsell"
     ],
     "image": "gemini-image.svg",
     "name": "Gemini",
@@ -18,18 +20,117 @@
     "image": "llama-3-image.png",
     "name": "Llama 3",
     "release_date": "2024-04-18",
-    "url": "https://llama.meta.com/llama3/"
+    "url": "https://llama.meta.com/llama3"
   },
   {
-    "name": "Claude 3",
-    "description": "Talk with Claude, an AI assistant from Anthropic",
+    "description": "Talk with Claude, an AI assistant from Anthropic.\n\nGain access to Claude Pro for $20/mo.",
     "developer": "Anthropic",
-    "image": "claude-3-image.png",
-    "release_date": "2024-03-14",
-    "url": "https://claude.ai",
     "features": [
       "document",
+      "image",
+      "upsell"
+    ],
+    "image": "claude-3-image.png",
+    "name": "Claude 3",
+    "release_date": "2024-03-14",
+    "url": "https://claude.ai"
+  },
+  {
+    "description": "Your everyday AI companion.\n\nChat, get answers, create amazing content, and discover information effortlessly with Bing's AI-powered chat. Transform the way you search and get answers with Microsoft Copilot in Bing.\n\nPowered by OpenAI's GPT-4.",
+    "developer": "Microsoft",
+    "features": [
+      "search",
+      "microphone",
       "image"
-    ]
+    ],
+    "image": "copilot-image.svg",
+    "name": "Copilot",
+    "release_date": "2023-02-07",
+    "url": "https://chat.bing.com"
+  },
+  {
+    "description": "ChatGPT is a free-to-use AI system. Use it for engaging conversations, gain insights, automate tasks, and witness the future of AI, all in one place.\n\nAccess GPT-4 and additional features like image upload and the GPT Store for $20/mo.",
+    "developer": "OpenAI",
+    "features": ["upsell"],
+    "image": "chatgpt-image.svg",
+    "name": "ChatGPT",
+    "release_date": "2022-11-30",
+    "url": "https://chat.openai.com"
+  },
+  {
+    "description": "Perplexity AI unlocks the power of knowledge with information discovery and sharing.\n\nUnlock the full capabilities of Perplexity with a Pro account for $20/mo.",
+    "developer": "Perplexity",
+    "features": [
+      "search",
+      "document",
+      "image",
+      "upsell"
+    ],
+    "image": "perplexity-image.svg",
+    "name": "Search Engine",
+    "release_date": "2023-10-04",
+    "url": "https://www.perplexity.ai"
+  },
+  {
+    "description": "Chat with Mistral AI's cutting edge language models.",
+    "developer": "Mistral",
+    "features": [],
+    "image": "mistral-image.png",
+    "name": "Le Chat",
+    "release_date": "2024-02-26",
+    "url": "https://chat.mistral.ai"
+  },
+  {
+    "description": "Empower your business with AI using Reka's cutting-edge multimodal language models.",
+    "developer": "Reka",
+    "features": [
+      "document",
+      "image",
+      "video"
+    ],
+    "image": "reka-image.png",
+    "name": "Playground",
+    "release_date": "2024-04-15",
+    "url": "https://chat.reka.ai"
+  },
+  {
+    "description": "A mixture-of-experts (MoE) large language model trained by the Mosaic Research team at Databricks.",
+    "developer": "Databricks",
+    "features": [],
+    "image": "dbrx-image.png",
+    "name": "DBRX",
+    "release_date": "2024-05-27",
+    "url": "https://huggingface.co/spaces/databricks/dbrx-instruct"
+  },
+  {
+    "description": "An Efficient Language Model Family with Open Training and Inference Framework.",
+    "developer": "Apple",
+    "features": [],
+    "image": "openelm-image.jpg",
+    "name": "OpenELM",
+    "release_date": "2024-04-22",
+    "url": "https://huggingface.co/apple/OpenELM"
+  },
+  {
+    "description": "A fully managed service that offers a choice of high-performing foundation models (FMs) from leading AI companies like AI21 Labs, Anthropic, Cohere, Meta, Mistral AI, Stability AI, and Amazon through a single API, along with a broad set of capabilities you need to build generative AI applications.",
+    "developer": "Amazon",
+    "features": [],
+    "image": "bedrock-image.jpg",
+    "name": "Bedrock",
+    "release_date": "2023-04-13",
+    "url": "https://aws.amazon.com/bedrock"
+  },
+  {
+    "description": "A demo app that lets you personalize a GPT large language model connected to your own content—docs, notes, images, or other data all while running locally on Windows RTX PC. You can query a custom chatbot to quickly get contextually relevant answers.",
+    "developer": "NVIDIA",
+    "features": [
+      "microphone",
+      "document",
+      "image"
+    ],
+    "image": "chatrtx-image.jpg",
+    "name": "ChatRTX",
+    "release_date": "2024-02-13",
+    "url": "https://www.nvidia.com/en-us/ai-on-rtx/chatrtx"
   }
 ]
