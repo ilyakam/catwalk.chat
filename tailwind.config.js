@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import defaultConfig from 'tailwindcss/defaultConfig';
+
 module.exports = {
   darkMode: ["class"],
   content: [
@@ -61,6 +63,9 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+      },
+      fontFamily: {
+        times: ['Times', '"Times New Roman"', ...defaultConfig.theme.fontFamily.serif],
       },
       height: {
         128: '32rem', // 512px
