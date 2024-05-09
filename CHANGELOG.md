@@ -18,6 +18,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Separate type annotations for `Model` and a finite set of `ModelFeature`-s
 - Font family definition called `times` for Times-based serif typefaces
 
+### Fixed
+
+- Protruding model images past the cards' borders
+
 ### Removed
 
 - Catch-all `<App>` component

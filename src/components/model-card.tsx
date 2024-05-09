@@ -13,7 +13,7 @@ function ModelCard({ model }: ModelCardProps): ReactElement {
   return (
     <Card className='flex h-128 w-96 flex-col justify-between gap-2 shadow-md dark:bg-slate-700'>
       <a
-        className='relative h-52 w-full overflow-hidden bg-slate-50 dark:bg-slate-600'
+        className='relative h-52 w-full overflow-hidden rounded-t-md bg-slate-50 dark:bg-slate-600'
         href={model.url || '#'}
         rel="noopener noreferrer"
         target="_blank"
