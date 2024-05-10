@@ -1,6 +1,23 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="overscroll-none">
   <head>
+    <script>
+      const toggleDarkMode = (isDarkMode) => {
+        if (isDarkMode) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      };
+
+      const colorSchemeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+      colorSchemeMediaQuery.addEventListener('change', (event) => toggleDarkMode(event.matches));
+
+      const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+      toggleDarkMode(isDarkMode);
+    </script>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

@@ -17,10 +17,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New components for `<ModelCard>`, `<ModelFeatures>`, `<Index>`, and `<Root>`
 - Separate type annotations for `Model` and a finite set of `ModelFeature`-s
 - Font family definition called `times` for Times-based serif typefaces
+- Bright border around the model cards in dark mode
+
+### Changed
+
+- Keep the footer background dark when in dark mode
 
 ### Fixed
 
 - Protruding model images past the cards' borders
+- Ensure dark mode toggles with the browser theme
+- Prevent overscrolling to maintain a neat background
 
 ### Removed
 
