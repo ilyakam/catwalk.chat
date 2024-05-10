@@ -9,8 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Header saying "catwalk.chat"
-- Footer with a copyright notice
+- Header saying "catwalk.chat" with a faint gradient
+- Footer with a copyright notice that remains dark and extends to the bottom
 - React Router that loads the models asynchronously
 - Root layout
 - Nested index route
@@ -21,7 +21,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Keep the footer background dark when in dark mode
 - Reorder the models
 
 ### Fixed
