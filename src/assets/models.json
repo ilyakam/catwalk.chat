@@ -1,26 +1,14 @@
 [
   {
-    "description": "Chat to supercharge your ideas.\n\nBard is now Gemini. Get help with writing, planning, learning, and more from Google AI.\n\nUpgrade to Gemini Advanced for $19.99/mo.",
-    "developer": "Google",
+    "description": "ChatGPT is a free-to-use AI system. Use it for engaging conversations, gain insights, automate tasks, and witness the future of AI, all in one place.\n\nAccess GPT-4 and additional features like image upload and the GPT Store for $20/mo.",
+    "developer": "OpenAI",
     "features": [
-      "search",
-      "microphone",
-      "image",
       "upsell"
     ],
-    "image": "gemini-image.svg",
-    "name": "Gemini",
-    "release_date": "2024-03-04",
-    "url": "https://gemini.google.com"
-  },
-  {
-    "description": "Build the future of AI with Meta Llama 3. Now available with both 8B and 70B pretrained and instruction-tuned versions to support a wide range of applications.",
-    "developer": "Meta",
-    "features": [],
-    "image": "llama-3-image.png",
-    "name": "Llama 3",
-    "release_date": "2024-04-18",
-    "url": "https://llama.meta.com/llama3"
+    "image": "chatgpt-image.svg",
+    "name": "ChatGPT",
+    "release_date": "2022-11-30",
+    "url": "https://chat.openai.com"
   },
   {
     "description": "Talk with Claude, an AI assistant from Anthropic.\n\nGain access to Claude Pro for $20/mo.",
@@ -36,6 +24,20 @@
     "url": "https://claude.ai"
   },
   {
+    "description": "Chat to supercharge your ideas.\n\nBard is now Gemini. Get help with writing, planning, learning, and more from Google AI.\n\nUpgrade to Gemini Advanced for $19.99/mo.",
+    "developer": "Google",
+    "features": [
+      "search",
+      "microphone",
+      "image",
+      "upsell"
+    ],
+    "image": "gemini-image.svg",
+    "name": "Gemini",
+    "release_date": "2024-03-04",
+    "url": "https://gemini.google.com"
+  },
+  {
     "description": "Your everyday AI companion.\n\nChat, get answers, create amazing content, and discover information effortlessly with Bing's AI-powered chat. Transform the way you search and get answers with Microsoft Copilot in Bing.\n\nPowered by OpenAI's GPT-4.",
     "developer": "Microsoft",
     "features": [
@@ -47,15 +49,6 @@
     "name": "Copilot",
     "release_date": "2023-02-07",
     "url": "https://chat.bing.com"
-  },
-  {
-    "description": "ChatGPT is a free-to-use AI system. Use it for engaging conversations, gain insights, automate tasks, and witness the future of AI, all in one place.\n\nAccess GPT-4 and additional features like image upload and the GPT Store for $20/mo.",
-    "developer": "OpenAI",
-    "features": ["upsell"],
-    "image": "chatgpt-image.svg",
-    "name": "ChatGPT",
-    "release_date": "2022-11-30",
-    "url": "https://chat.openai.com"
   },
   {
     "description": "Perplexity AI unlocks the power of knowledge with information discovery and sharing.\n\nUnlock the full capabilities of Perplexity with a Pro account for $20/mo.",
@@ -103,6 +96,28 @@
     "url": "https://huggingface.co/spaces/databricks/dbrx-instruct"
   },
   {
+    "description": "A demo app that lets you personalize a GPT large language model connected to your own content—docs, notes, images, or other data all while running locally on Windows RTX PC. You can query a custom chatbot to quickly get contextually relevant answers.",
+    "developer": "NVIDIA",
+    "features": [
+      "microphone",
+      "document",
+      "image"
+    ],
+    "image": "chatrtx-image.jpg",
+    "name": "ChatRTX",
+    "release_date": "2024-02-13",
+    "url": "https://www.nvidia.com/en-us/ai-on-rtx/chatrtx"
+  },
+  {
+    "description": "Build the future of AI with Meta Llama 3. Now available with both 8B and 70B pretrained and instruction-tuned versions to support a wide range of applications.",
+    "developer": "Meta",
+    "features": [],
+    "image": "llama-3-image.png",
+    "name": "Llama 3",
+    "release_date": "2024-04-18",
+    "url": "https://llama.meta.com/llama3"
+  },
+  {
     "description": "An Efficient Language Model Family with Open Training and Inference Framework.",
     "developer": "Apple",
     "features": [],
@@ -119,18 +134,5 @@
     "name": "Bedrock",
     "release_date": "2023-04-13",
     "url": "https://aws.amazon.com/bedrock"
-  },
-  {
-    "description": "A demo app that lets you personalize a GPT large language model connected to your own content—docs, notes, images, or other data all while running locally on Windows RTX PC. You can query a custom chatbot to quickly get contextually relevant answers.",
-    "developer": "NVIDIA",
-    "features": [
-      "microphone",
-      "document",
-      "image"
-    ],
-    "image": "chatrtx-image.jpg",
-    "name": "ChatRTX",
-    "release_date": "2024-02-13",
-    "url": "https://www.nvidia.com/en-us/ai-on-rtx/chatrtx"
   }
 ]

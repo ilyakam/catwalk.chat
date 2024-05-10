@@ -6,6 +6,7 @@
     "lucide-react": "^0.376.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.0",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"
   },
@@ -43,5 +44,5 @@
     "run-tsc": "tsc --noEmit"
   },
   "type": "module",
-  "version": "0.3.0"
+  "version": "0.4.0"
 }

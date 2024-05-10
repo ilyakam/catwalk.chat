@@ -14,7 +14,7 @@ module.exports = {
     quotes: ['error', 'single', { avoidEscape: true }],
     semi: ['error', 'always'],
     'tailwindcss/no-custom-classname': ['warn', {
-      whitelist: ['display', 'hero', 'orange'],
+      whitelist: ['times'],
     }],
   },
 };

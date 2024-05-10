@@ -5,6 +5,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.4.0] - 2024-05-10
+
+### Added
+
+- Header saying "catwalk.chat" with a faint gradient
+- Footer with a copyright notice that remains dark and extends to the bottom
+- React Router that loads the models asynchronously
+- Root layout
+- Nested index route
+- New components for `<ModelCard>`, `<ModelFeatures>`, `<Index>`, and `<Root>`
+- Separate type annotations for `Model` and a finite set of `ModelFeature`-s
+- Font family definition called `times` for Times-based serif typefaces
+- Bright border around the model cards in dark mode
+
+### Changed
+
+- Reorder the models
+
+### Fixed
+
+- Protruding model images past the cards' borders
+- Ensure dark mode toggles with the browser theme
+- Prevent overscrolling to maintain a neat background
+
+### Removed
+
+- Catch-all `<App>` component
+
 ## [0.3.0] - 2024-05-06
 
 ### Added
