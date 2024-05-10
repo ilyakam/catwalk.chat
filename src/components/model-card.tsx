@@ -11,7 +11,7 @@ interface ModelCardProps {
 
 function ModelCard({ model }: ModelCardProps): ReactElement {
   return (
-    <Card className='flex h-128 w-96 flex-col justify-between gap-2 shadow-md dark:bg-slate-700 dark:border-slate-300'>
+    <Card className='flex h-128 w-96 flex-col justify-between gap-2 shadow-md dark:border-slate-300 dark:bg-slate-700'>
       <a
         className='relative h-52 w-full overflow-hidden rounded-t-md bg-slate-50 dark:bg-slate-600'
         href={model.url || '#'}
